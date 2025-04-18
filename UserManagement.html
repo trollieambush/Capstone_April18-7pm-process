@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - User Management</title>
+  <link rel="stylesheet" href="UserManagement.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="side-menu">
+    <div class="admin">
+      <i class="fa-solid fa-user-shield"></i>
+      <span>Admin</span>
+  </div>
+  <ul>
+    <li><a href="AdminDashboard.html"><i class="fa-solid fa-gauge Dash"></i> Dashboard</a></li>
+    <li><a href="UserManagement.html"><i class="fa-solid fa-users"></i> User Management</a></li>
+    <li><a href="Admin-Subject.html"><i class="fa-solid fa-book"></i> Subject</a></li>
+    <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+  </ul>
+  <div class="logout">
+    <a href="login.html">
+      <i class="fa-solid fa-right-from-bracket"></i> Logout
+    </a>
+  </div>
+  </div>
+
+  <main class="admin-content">
+    <div class="content-box">
+      <div class="top-controls">
+        <input type="text" placeholder="Search..." class="search-box" />
+        <div class="filters">
+          <input type="text" placeholder="Name" class="search-box" />
+          <input type="text" placeholder="Last Name" class="search-box" />
+          <div class="filter-dropdown"></div>
+        </div>
+      </div>
+      <h2 class="section-title">User Management</h2>
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>User ID <i class="fa-solid fa-sort"></i></th>
+            <th>Name <i class="fa-solid fa-sort"></i></th>
+            <th>Email <i class="fa-solid fa-sort"></i></th>
+            <th>Password <i class="fa-solid fa-sort"></i></th>
+            <th>Role <i class="fa-solid fa-sort"></i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0001</td>
+            <td>Yvan Bernaldez</td>
+            <td>YvanBernaldez@CAES.edu.ph</td>
+            <td>Bernaldez123</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>0002</td>
+            <td>Jhezthony Rei Gutierrez</td>
+            <td>jhezthonygutierez@CAES.edu.ph</td>
+            <td>Gutierrez123</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>0003</td>
+            <td>Kenneth John Daaco</td>
+            <td>JKDaaco@CAES.edu.ph</td>
+            <td>Daaco123</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>0004</td>
+            <td>Julius Valdez/td>
+            <td>JuliusValdez@CAES.edu.ph</td>
+            <td>Valdez123</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>0005</td>
+            <td>Juan Dela Cruz</td>
+            <td>JuanDelaCruz@CAES.edu.ph</td>
+            <td>DelaCruz123</td>
+            <td>Student</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="UserManagement.js"></script>
+</body>
+</html>
